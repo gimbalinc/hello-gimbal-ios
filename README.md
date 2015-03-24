@@ -1,4 +1,4 @@
-# Gimbal iOS Minimal Sample
+# Gimbal iOS Basic Sample
 Simplest Gimbal Integration Example on iOS. After setting up your application, place(s) and communication(s) on Gimbal Manager the code below will yield **Place Events** and **Local Notifications**.
 
 Before you create your iOS application
