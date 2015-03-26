@@ -2,14 +2,13 @@
 Minimal Gimbal Integration Example on iOS. After setting up your application, place(s) and communication(s) using the Gimbal Manager the code below will yield **Place Events** and **Local Notifications**.
 
 ## Before you create your iOS application
+Using the **Gimbal Manager**:
+[https://manager.gimbal.com/](https://manager.gimbal.com/)
 - create your Gimbal account 
-- create an **Application** (generates you API KEY)
+- create an **Application** using bundle ID **com.gimbal.hello-gimbal-ios** (generates you API KEY)
 - create at least one **Place** (using a Beacon or Geofence)
 - create at least one **Communicate** (used for the local notification)
 - download the SDK (this sample uses **version 2.9**)
-
-Using the **Gimbal Manager**:
-[https://manager.gimbal.com/](https://manager.gimbal.com/)
 
 ## In the sample iOS application
 - fill your API KEY into the AppDelegate
