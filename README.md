@@ -15,6 +15,8 @@ Using the **Gimbal Manager**:
 - fill your API KEY into the AppDelegate
 - add the Gimbal.framework from the SDK zip you downloaded
 
+**When you run this sample you will see the Place Events in the log**
+
 Full Gimbal Docs [https://gimbal.com/docs](https://gimbal.com/docs)
 
 ```objective-c

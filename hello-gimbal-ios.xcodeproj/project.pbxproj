@@ -15,7 +15,6 @@
 		7E437FB41AC2172300F83FC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E437FB21AC2172300F83FC1 /* LaunchScreen.xib */; };
 		7E437FC01AC2172300F83FC1 /* hello_gimbal_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E437FBF1AC2172300F83FC1 /* hello_gimbal_iosTests.m */; };
 		7E437FCB1AC21B3700F83FC1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E437FCA1AC21B3700F83FC1 /* libz.dylib */; };
-		7E437FCF1AC21BA000F83FC1 /* Gimbal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E437FCE1AC21BA000F83FC1 /* Gimbal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 		7E437FBE1AC2172300F83FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E437FBF1AC2172300F83FC1 /* hello_gimbal_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hello_gimbal_iosTests.m; sourceTree = "<group>"; };
 		7E437FCA1AC21B3700F83FC1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		7E437FCE1AC21BA000F83FC1 /* Gimbal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Gimbal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E437FCF1AC21BA000F83FC1 /* Gimbal.framework in Frameworks */,
 				7E437FCB1AC21B3700F83FC1 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,7 +126,6 @@
 		7E437FC91AC2181B00F83FC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7E437FCE1AC21BA000F83FC1 /* Gimbal.framework */,
 				7E437FCA1AC21B3700F83FC1 /* libz.dylib */,
 			);
 			name = Frameworks;
@@ -438,6 +434,7 @@
 				7E437FC51AC2172300F83FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E437FC61AC2172300F83FC1 /* Build configuration list for PBXNativeTarget "hello-gimbal-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +443,7 @@
 				7E437FC81AC2172300F83FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
