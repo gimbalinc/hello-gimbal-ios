@@ -13,6 +13,7 @@ Using the **Gimbal Manager**:
 ## In the sample iOS application
 - fill your API KEY into the AppDelegate
 - add the Gimbal.framework from the SDK zip you downloaded
+- to enable Gimbal to operate in the background set your application to **'Uses Bluetooth LE accessories'** background mode 
 
 **When you run this sample you will see the Place Events in the log**
 
