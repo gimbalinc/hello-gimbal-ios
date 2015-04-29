@@ -6,7 +6,7 @@ Using the **Gimbal Manager**:
 [https://manager.gimbal.com/](https://manager.gimbal.com/)
 - create your Gimbal account 
 - create an **Application** using bundle ID **com.gimbal.hello-gimbal-ios** (generates you API KEY)
-- create at least one **Place** (using a Beacon or Geofence) you can buy beacons here [http://store.gimbal.com/](http://store.gimbal.com/)
+- create at least one **Place** (using a Beacon or Geofence) you can buy Beacons here [http://store.gimbal.com/](http://store.gimbal.com/)
 - create at least one **Communicate** (used for the local notification)
 - download the SDK (this sample uses **version 2.9**)
 
