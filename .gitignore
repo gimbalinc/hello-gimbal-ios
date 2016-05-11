@@ -16,4 +16,6 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
+Pods/
+hello-gimbal-ios.xcworkspace/
 
