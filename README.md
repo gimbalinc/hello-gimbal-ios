@@ -10,6 +10,13 @@ Using the **Gimbal Manager**:
 - create at least one **Communicate** (used for the local notification)
 - download the latest V2 SDK
 
+## Installing Dependencies
+We use cocoapods to manage dependencies [https://cocoapods.org/](https://cocoapods.org)
+- sudo gem install cocoapods (if you do not already have cocoapods installed)
+- cd to the directory where you have cloned the project
+- run the command pod install
+- open hello-gimbal-ios.xcworkspace file (not the .xcodeproj file)
+
 ## In the sample iOS application
 - fill your API KEY into ViewController.m
 - add the Gimbal.framework from the SDK zip you downloaded
