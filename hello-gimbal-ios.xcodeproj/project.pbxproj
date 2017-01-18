@@ -15,6 +15,7 @@
 		7E437FB41AC2172300F83FC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E437FB21AC2172300F83FC1 /* LaunchScreen.xib */; };
 		7E437FC01AC2172300F83FC1 /* hello_gimbal_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E437FBF1AC2172300F83FC1 /* hello_gimbal_iosTests.m */; };
 		7E437FCB1AC21B3700F83FC1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E437FCA1AC21B3700F83FC1 /* libz.dylib */; };
+		84F3DC271E2EEB2300905925 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F3DC261E2EEB2300905925 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		7E437FBE1AC2172300F83FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E437FBF1AC2172300F83FC1 /* hello_gimbal_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hello_gimbal_iosTests.m; sourceTree = "<group>"; };
 		7E437FCA1AC21B3700F83FC1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		84F3DC261E2EEB2300905925 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F3DC271E2EEB2300905925 /* AdSupport.framework in Frameworks */,
 				7E437FCB1AC21B3700F83FC1 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +129,7 @@
 		7E437FC91AC2181B00F83FC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84F3DC261E2EEB2300905925 /* AdSupport.framework */,
 				7E437FCA1AC21B3700F83FC1 /* libz.dylib */,
 			);
 			name = Frameworks;
