@@ -17,9 +17,8 @@
     
     self.placeManager = [GMBLPlaceManager new];
     self.placeManager.delegate = self;
-    [GMBLPlaceManager startMonitoring];
     
-    [GMBLCommunicationManager startReceivingCommunications];
+    [Gimbal start];
 }
 
 # pragma mark - Gimbal Place Manager Delegate methods
